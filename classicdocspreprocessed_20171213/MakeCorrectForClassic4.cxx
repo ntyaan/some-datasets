@@ -43,7 +43,7 @@ int main(){
     row+=Label[i];
     std::cout<<Label[i]<<" ";
   }std::cout<<std::endl;
-  ofstream ofs_correct("classic4_corect.txt");
+  ofstream ofs_correct("classic4_correct.txt");
   REP(i,centers_number){
     if(i==0){
       REP(j,Label[i]){
