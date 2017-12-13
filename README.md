@@ -1,31 +1,33 @@
 # some-datasets
 - CLUTO
 
+[http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download](http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download)
+
 |データ名|クラスタ数[C]|文書数[N]|単語数[M]|
 |:---|:---|:---|:---|
 |**[cacmcisi](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/cacmcisi/sparse_cacmcisi.txt)**|2|4663|14409|
-|**classic**|4|7094|41681|
-|**cranmed**|2|2431|41681|
-|**fbis**|17|2463|2000|
-|**hitech**|6|2301|126321|
-|**k1a**|20|2340|21839|
-|**k1b**|6|2340|21839|
-|**la1**|6|3204|31472|
-|**la2**|6|3075|31472|
-|**la12**|6|6279|31472|
-|**mm**|2|2521|126354|
-|**new3**|44|9558|83487|
-|**ohscal**|10|11162|11465|
-|**re0**|13|1504|2886|
-|**re1**|25|1657|3758|
-|**reviews**|5|4069|126354|
-|**sports**|7|8580|126355|
-|**tr11**|9|414|6429|
-|**tr12**|8|313|5804|
-|**tr23**|6|204|5832|
-|**tr31**|7|927|10128|
-|**tr41**|10|878|7454|
-|**tr45**|10|690|8261|
-|**wap**|20|1560|8460|
+|**[classic](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/classic/sparse_classic.txt)**|4|7094|41681|
+|**[cranmed](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/cranmed/sparse_cranmed.txt)**|2|2431|41681|
+|**[fbis](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/fbis/sparse_fbis.txt)**|17|2463|2000|
+|**[hitech](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/hitech/sparse_hitech.txt)**|6|2301|126321|
+|**[k1a](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/k1a/sparse_k1a.txt)**|20|2340|21839|
+|**[k1b](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/k1b/sparse_k1b.txt)**|6|2340|21839|
+|**[la1](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/la1/sparse_la1.txt)**|6|3204|31472|
+|**[la2](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/la2/sparse_la2.txt)**|6|3075|31472|
+|**[la12](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/la12/sparse_la12.txt)**|6|6279|31472|
+|**[mm](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/mm/sparse_mm.txt)**|2|2521|126354|
+|**[new3](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/mm/sparse_mm.txt)**|44|9558|83487|
+|**[ohscal](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/ohscal/sparse_ohscal.txt)**|10|11162|11465|
+|**[re0](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/re0/sparse_re0.txt)**|13|1504|2886|
+|**[re1](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/re1/sparse_re1.txt)**|25|1657|3758|
+|**[reviews](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/reviews/sparse_reviews.txt)**|5|4069|126354|
+|**[sports](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/sports/sparse_sports.txt)**|7|8580|126355|
+|**[tr11](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/tr11/sparse_tr11.txt)**|9|414|6429|
+|**[tr12](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/tr12/sparse_tr12.txt)**|8|313|5804|
+|**[tr23](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/tr23/sparse_tr23.txt)**|6|204|5832|
+|**[tr31](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/tr31/sparse_tr31.txt)**|7|927|10128|
+|**[tr41](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/tr41/sparse_tr41.txt)**|10|878|7454|
+|**[tr45](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/tr45/sparse_tr45.txt)**|10|690|8261|
+|**[wap](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/wap/sparse_wap.txt)**|20|1560|8460|
 
-[http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download](http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download)
+
