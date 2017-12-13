@@ -58,7 +58,7 @@ cran.000996 2
 |**[classic4](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/sparse_classic4.txt)**|[4](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/classic4_correct.txt)|7094|5896|
 
 
-- LINQS dataset
+- LINQS dataset : [http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html][http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html]
 
 |データ名|クラスタ数[C]|文書数[N]|単語数[M]|
 |:---|:---|:---|:---|
