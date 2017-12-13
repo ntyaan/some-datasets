@@ -16,7 +16,7 @@
 |**[la2](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/la2/sparse_la2.txt)**|6|3075|31472|
 |**[la12](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/la12/sparse_la12.txt)**|6|6279|31472|
 |**[mm](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/mm/sparse_mm.txt)**|2|2521|126354|
-|**[new3](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/mm/sparse_mm.txt)**|44|9558|83487|
+|**[new3](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/new3/sparse_new3.txt)**|44|9558|83487|
 |**[ohscal](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/ohscal/sparse_ohscal.txt)**|10|11162|11465|
 |**[re0](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/re0/sparse_re0.txt)**|13|1504|2886|
 |**[re1](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/re1/sparse_re1.txt)**|25|1657|3758|
