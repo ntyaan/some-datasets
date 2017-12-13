@@ -48,7 +48,7 @@ docbyterm.txtの一行目
 1553 1689 1
 ```
 となっていてデータ番号1552が抜けている。
-同様に[documents.txt](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/document.txt)の5657行目から
+同様に[documents.txt](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/documents.txt)の5657行目から
 
 ```document.txt
 cran.000994 2
