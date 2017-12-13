@@ -28,4 +28,25 @@
 |**[tr45](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/tr45/sparse_tr45.txt)**|10|690|8261|
 |**[wap](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/wap/sparse_wap.txt)**|20|1560|8460|
 
+- classic4 : [http://www.dataminingresearch.com/index.php/2010/09/classic3-classic4-datasets](http://www.dataminingresearch.com/index.php/2010/09/classic3-classic4-datasets)
+
+docbyterm.txtの一行目
+7095 5896 247158
+となっているが正しくは
+7094 5896 247158
+20301行目から
+
+```
+1551 671 1
+1553 1689 1
+```
+となっていてデータ番号1552が抜けている。
+同様にdocuments.txtの5657行目から
+
+```
+cran.000994 2
+cran.000996 2
+```
+となっていて第二クラスの995番が抜けている。
+
 
