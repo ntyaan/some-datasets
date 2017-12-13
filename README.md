@@ -41,14 +41,14 @@ docbyterm.txtの一行目
 
 となっているが正しくは文書数7094
 
-docbyterm.txtの20301行目から
+[docbyterm.txt](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/docbyterm.txt)の20301行目から
 
 ```doxbyterm.txt
 1551 671 1
 1553 1689 1
 ```
 となっていてデータ番号1552が抜けている。
-同様にdocuments.txtの5657行目から
+同様に[documents.txt](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/document.txt)の5657行目から
 
 ```document.txt
 cran.000994 2
