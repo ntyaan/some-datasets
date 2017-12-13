@@ -54,6 +54,6 @@ cran.000996 2
 
 |データ名|クラスタ数[C]|文書数[N]|単語数[M]|
 |:---|:---|:---|:---|
-|**[classic4]()**|4|7094|5896|
+|**[classic4](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/sparse_classic4.txt)**|4|7094|5896|
 
 
