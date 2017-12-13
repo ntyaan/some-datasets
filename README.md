@@ -1,5 +1,6 @@
 # some-datasets
-- CLUTO : [http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download](http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download)
+### CLUTO 
+- [http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download](http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download)
 
 |データ名|クラスタ数[C]|文書数[N]|単語数[M]|
 |:---|:---|:---|:---|
@@ -29,7 +30,8 @@
 |**[wap](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/wap/sparse_wap.txt)**|[20](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/wap/wap_correct.txt)|1560|8460|
 
 
-- classic4 : [http://www.dataminingresearch.com/index.php/2010/09/classic3-classic4-datasets](http://www.dataminingresearch.com/index.php/2010/09/classic3-classic4-datasets)
+### classic4 
+- [http://www.dataminingresearch.com/index.php/2010/09/classic3-classic4-datasets](http://www.dataminingresearch.com/index.php/2010/09/classic3-classic4-datasets)
 
 docbyterm.txtの一行目
 
@@ -59,9 +61,10 @@ cran.000996 2
 |**[classic4](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/sparse_classic4.txt)**|[4](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/classic4_correct.txt)|7094|5896|
 
 
-- LINQS dataset : [http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html][http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html]
+### LINQS dataset
+- [http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html][http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html]
 
-### Coraデータセットに関して
+##### Coraデータセットに関して
 
 Webページには単語数1433とあるが445列目が全て0で埋まっているのでデータ整形時に次元数1432になるよう調整した。
 
