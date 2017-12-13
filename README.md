@@ -28,6 +28,7 @@
 |**[tr45](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/tr45/sparse_tr45.txt)**|[10](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/tr45/tr45_correct.txt)|690|8261|
 |**[wap](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/wap/sparse_wap.txt)**|[20](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/wap/wap_correct.txt)|1560|8460|
 
+
 - classic4 : [http://www.dataminingresearch.com/index.php/2010/09/classic3-classic4-datasets](http://www.dataminingresearch.com/index.php/2010/09/classic3-classic4-datasets)
 
 docbyterm.txtの一行目
@@ -56,4 +57,12 @@ cran.000996 2
 |:---|:---|:---|:---|
 |**[classic4](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/sparse_classic4.txt)**|[4](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/classic4_correct.txt)|7094|5896|
 
+
+- LINQS dataset
+
+|データ名|クラスタ数[C]|文書数[N]|単語数[M]|
+|:---|:---|:---|:---|
+|**[CiteSeer]()**| | | | 
+|**[Cora]()**| | | | 
+|**[WebKB]()**| | | | 
 
