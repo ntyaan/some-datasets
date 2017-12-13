@@ -61,7 +61,8 @@ cran.000996 2
 
 - LINQS dataset : [http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html][http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html]
 
-###Coraデータセットに関して
+#　Coraデータセットに関して
+
 Webページには単語数1433とあるが445列目が全て0で埋まっているのでデータ整形時に次元数1432になるよう調整した。
 
 |データ名|クラスタ数[C]|文書数[N]|単語数[M]|
