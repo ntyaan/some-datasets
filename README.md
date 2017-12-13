@@ -62,7 +62,7 @@ cran.000996 2
 
 
 ### LINQS dataset
-- [http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html][http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html]
+- [http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html](http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html)
 
 ##### Coraデータセットに関して
 
