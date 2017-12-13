@@ -1,7 +1,5 @@
 # some-datasets
-- CLUTO
-
-[http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download](http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download)
+- CLUTO [http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download](http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download)
 
 |データ名|クラスタ数[C]|文書数[N]|単語数[M]|
 |:---|:---|:---|:---|
