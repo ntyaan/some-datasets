@@ -31,12 +31,14 @@
 - classic4 : [http://www.dataminingresearch.com/index.php/2010/09/classic3-classic4-datasets](http://www.dataminingresearch.com/index.php/2010/09/classic3-classic4-datasets)
 
 docbyterm.txtの一行目
+```doxbyterm.txt
 7095 5896 247158
-となっているが正しくは
-7094 5896 247158
-20301行目から
-
 ```
+
+となっているが正しくは文書数7094
+docbyterm.txt20301行目から
+
+```doxbyterm.txt
 1551 671 1
 1553 1689 1
 ```
