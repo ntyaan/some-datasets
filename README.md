@@ -38,6 +38,7 @@ docbyterm.txtの一行目
 ```
 
 となっているが正しくは文書数7094
+
 docbyterm.txtの20301行目から
 
 ```doxbyterm.txt
