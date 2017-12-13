@@ -3,7 +3,7 @@
 
 |データ名|クラスタ数[C]|文書数[N]|単語数[M]|
 |:---|:---|:---|:---|
-|**cacmcisi**|2|4663|14409|
+|**[cacmcisi](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/cacmcisi/sparse_cacmcisi.txt)**|2|4663|14409|
 |**classic**|4|7094|41681|
 |**cranmed**|2|2431|41681|
 |**fbis**|17|2463|2000|
