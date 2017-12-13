@@ -60,9 +60,12 @@ cran.000996 2
 
 - LINQS dataset : [http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html][http://www.cs.umd.edu/%7Esen/lbc-proj/LBC.html]
 
+###Coraデータセットに関して
+Webページには単語数1433とあるが445列目が全て0で埋まっているのでデータ整形時に次元数1432になるよう調整した。
+
 |データ名|クラスタ数[C]|文書数[N]|単語数[M]|
 |:---|:---|:---|:---|
-|**[CiteSeer]()**| | | | 
-|**[Cora]()**| | | | 
-|**[WebKB]()**| | | | 
+|**[CiteSeer](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/sparse_citeseer.txt)**|[6](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/citeseer_correct.txt)|3312|3703| 
+|**[Cora](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/sparse_cora.txt)**|[7](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/cora_correct.txt)|2708|1432| 
+|**[WebKB](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/sparse_webkb.txt)**|[5](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/webkb_correct.txt)|877|1703| 
 
