@@ -79,6 +79,15 @@ Webページには単語数1433とあるが445列目が全て0で埋まってい
 - 日本語wikiにあるような一般的なもの : [https://ja.wikipedia.org/wiki/Tf-idf](https://ja.wikipedia.org/wiki/Tf-idf)
 
 $$
+\begin{eqnarray}
+4a &=& ((a+a)+a)+a \\
+   &=& (a+a)+(a+a)
+\end{eqnarray}
+$$
+
+$$
+\begin{align}
 tf_{k,\ell}=x_{k,\ell}/\sum_{k'\in N} x_{k',\ell}
+\end{align}
 $$
 
