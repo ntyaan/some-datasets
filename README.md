@@ -2,7 +2,7 @@
 ### CLUTO 
 - [http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download](http://glaros.dtc.umn.edu/gkhome/cluto/cluto/download)
 
-|データ名|クラスタ数[C]|文書数[N]|単語数[M]|
+|データ名|クラス数[C]|文書数[N]|単語数[M]|
 |:---|:---|:---|:---|
 |**[cacmcisi](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/cacmcisi/sparse_cacmcisi.txt)**|[2](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/cacmcisi/cacmcisi_correct.txt)|4663|14409|
 |**[classic](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/classic/sparse_classic.txt)**|[4](https://github.com/ntyaan/some-datasets/blob/master/datasets_cluto_20171213/CLUTO/classic/classic_correct.txt)|7094|41681|
@@ -56,7 +56,7 @@ cran.000996 2
 ```
 となっていて第二クラスの995番が抜けている。
 
-|データ名|クラスタ数[C]|文書数[N]|単語数[M]|
+|データ名|クラス数[C]|文書数[N]|単語数[M]|
 |:---|:---|:---|:---|
 |**[classic4](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/sparse_classic4.txt)**|[4](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/classic4_correct.txt)|7094|5896|
 
@@ -68,9 +68,14 @@ cran.000996 2
 
 Webページには単語数1433とあるが445列目が全て0で埋まっているのでデータ整形時に次元数1432になるよう調整した。
 
-|データ名|クラスタ数[C]|文書数[N]|単語数[M]|
+|データ名|クラス数[C]|文書数[N]|単語数[M]|
 |:---|:---|:---|:---|
 |**[CiteSeer](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/sparse_citeseer.txt)**|[6](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/citeseer_correct.txt)|3312|3703| 
 |**[Cora](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/sparse_cora.txt)**|[7](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/cora_correct.txt)|2708|1432| 
 |**[WebKB](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/sparse_webkb.txt)**|[5](https://github.com/ntyaan/some-datasets/blob/master/dataset_linqs_20171213/webkb_correct.txt)|877|1703| 
+
+
+### TF・IDFに関して
+- 日本語wikiにあるような一般的なもの[https://ja.wikipedia.org/wiki/Tf-idf](https://ja.wikipedia.org/wiki/Tf-idf)
+$tf_{k,\ell}=x_{k,\ell}/\sum_{k'\in N} x_{k',\ell}$
 
