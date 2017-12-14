@@ -91,3 +91,9 @@ tf_{k,\ell}=x_{k,\ell}/\sum_{k'\in N} x_{k',\ell}
 \end{align}
 $$
 
+```math
+\begin{eqnarray}
+4a &=& ((a+a)+a)+a \\
+&=& (a+a)+(a+a)
+\end{eqnarray}
+```
