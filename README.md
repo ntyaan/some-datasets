@@ -76,6 +76,9 @@ Webページには単語数1433とあるが445列目が全て0で埋まってい
 
 
 ### TF・IDFに関して
-- 日本語wikiにあるような一般的なもの[https://ja.wikipedia.org/wiki/Tf-idf](https://ja.wikipedia.org/wiki/Tf-idf)
-$tf_{k,\ell}=x_{k,\ell}/\sum_{k'\in N} x_{k',\ell}$
+- 日本語wikiにあるような一般的なもの : [https://ja.wikipedia.org/wiki/Tf-idf](https://ja.wikipedia.org/wiki/Tf-idf)
+
+$$
+tf_{k,\ell}=x_{k,\ell}/\sum_{k'\in N} x_{k',\ell}
+$$
 
