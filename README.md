@@ -81,7 +81,7 @@ Webページには単語数1433とあるが445列目が全て0で埋まってい
 
 ![term_frequency.png](https://github.com/ntyaan/some-datasets/blob/master/tfidf/term_frequency.png)
 
-![inverse_document_frequency.png](https://github.com/ntyaan/some-datasets/blob/master/tfidf/term_frequency.png)
+![inverse_document_frequency.png](https://github.com/ntyaan/some-datasets/blob/master/tfidf/inverse_document_frequency.png)
 
 
 
