@@ -77,20 +77,11 @@ Webページには単語数1433とあるが445列目が全て0で埋まってい
 
 ### TF・IDFに関して
 - 日本語wikiにあるような一般的なもの : [https://ja.wikipedia.org/wiki/Tf-idf](https://ja.wikipedia.org/wiki/Tf-idf)
+![term_frequency.png](https://github.com/ntyaan/some-datasets/blob/master/tfidf/term_frequency.png)
+![inverse_document_frequency.png](https://github.com/ntyaan/some-datasets/blob/master/tfidf/term_frequency.png)
+[tfidf1.cxx](https://github.com/ntyaan/some-datasets/blob/master/tfidf/tfidf1.cxx)
 
-$$
-\begin{eqnarray}
-4a &=& ((a+a)+a)+a \\
-   &=& (a+a)+(a+a)
-\end{eqnarray}
-$$
-
-$$
-\begin{align}
-tf_{k,\ell}=x_{k,\ell}/\sum_{k'\in N} x_{k',\ell}
-\end{align}
-$$
-
-$$
-	X[n] = \sum_{k=0}^{N-1}x[k]\exp({-j\frac{2 \pi nk}{N}})
-$$
+- [docbyterm.tfidf.mat](https://github.com/ntyaan/some-datasets/blob/master/classicdocspreprocessed_20171213/docbyterm.tfidf.mat)で使われているもの
+![log_normalization.png](https://github.com/ntyaan/some-datasets/blob/master/tfidf/log_normalization.png)
+![inverse_document_frequency_smooth.png](https://github.com/ntyaan/some-datasets/blob/master/tfidf/term_frequency_smooth.png)
+[tfidf2.cxx](https://github.com/ntyaan/some-datasets/blob/master/tfidf/tfidf2.cxx)
