@@ -38,7 +38,13 @@ int main(){
   }
   int tmp=Label[0], row=0;
   //cran:995,471
-  Label[3]--;
+  /*
+  CACM: 3204 documents
+  CISI: 1460 documents
+  CRAN: 1398 documents
+  MED: 1033 documents
+  */
+  Label[2]--;
   REP(i,centers_number){
     row+=Label[i];
     std::cout<<Label[i]<<" ";
