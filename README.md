@@ -96,16 +96,18 @@ Webページには単語数1433とあるが445列目が全て0で埋まってい
 
 
 ## 推薦用データセット
-### MovieLens
+### [MovieLens](https://grouplens.org/datasets)
 - [MovieLens100k](http://files.grouplens.org/datasets/movielens/ml-100k-README.txt)
 - [MovieLens1M](http://files.grouplens.org/datasets/movielens/ml-1m-README.txt)
 - [MovieLens10M](http://files.grouplens.org/datasets/movielens/ml-10m-README.html)
 
-**データ整形後
+**データ整形後**
 
 |データ名|ユーザ数|アイテム数|
 |:---|:---|:---|
-|**[MovieLens100k](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/CLUTO/movie/sparse_movielens874_598.txt)**|874|598|
+|**[MovieLens100k](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/movie/sparse_movielens874_598.txt)**|874|598|
+|**[MovieLens1M](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/movie/sparse_movielens1m905_684.txt)**|905|684|
+|**[MovieLens10M](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/movie/sparse_movielens10m1299_1695.txt)**|905|684|
 
 
 
