@@ -3,7 +3,7 @@ tar xf eigen-eigen-なんたら.tar.bz2
 cd eigen-eigen-なんたら/
 sudo cp -r Eigen/ /usr/local/include/
 
-各データのディレクトリで端末を開き./make.sh
+各データのディレクトリで端末を開き、dataディレクトリを作成し、各データを入れる
 
 groupelens:
 https://grouplens.org/datasets
