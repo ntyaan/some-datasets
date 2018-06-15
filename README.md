@@ -96,10 +96,31 @@ Webページには単語数1433とあるが445列目が全て0で埋まってい
 
 
 ## 推薦用データセット
-### [MovieLens](https://grouplens.org/datasets)
+### [Grouplens](https://grouplens.org/datasets)
 - [MovieLens100k](http://files.grouplens.org/datasets/movielens/ml-100k-README.txt)
 - [MovieLens1M](http://files.grouplens.org/datasets/movielens/ml-1m-README.txt)
 - [MovieLens10M](http://files.grouplens.org/datasets/movielens/ml-10m-README.html)
+- [Book-Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/)
+- [Jester](http://www.ieor.berkeley.edu/~goldberg/jester-data/)
+###その他
+- [Libimseti](http://www.occamslab.com/petricek/data/)
+- [Epinions](http://www.trustlet.org/epinions.html)
+- [Sushi](http://www.kamishima.net/sushi/)
+
+**データ整形前**
+
+|データ名|ユーザ数|アイテム数|
+|:---|:---|:---|
+|**[MovieLens100k](http://files.grouplens.org/datasets/movielens/ml-100k.zip)**|943|1,682|
+|**[MovieLens1M](http://files.grouplens.org/datasets/movielens/ml-1m.zip)**|6,040|3,900|
+|**[MovieLens10M](http://files.grouplens.org/datasets/movielens/ml-10m.zip)**|71,567|10,681|
+|**[Book-Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/BX-CSV-Dump.zip)**|278,858|271,379|
+|**[Jester](http://eigentaste.berkeley.edu/dataset/jester_dataset_2.zip)**|59,132|140|
+|**[Libimseti](http://www.occamslab.com/petricek/data/ratings.dat)**|135,359|168,791|
+|**[Epinions](http://www.trustlet.org/datasets/downloaded_epinions/ratings_data.txt.bz2)**|49,290|139,738|
+|**[Sushi](http://www.kamishima.net/asset/sushi3-2016.zip)**|5000|100|
+
+データ整形参考論文:[https://pdfs.semanticscholar.org/422b/b819d88b579ec56b52e385c031ec4893afdb.pdf](https://pdfs.semanticscholar.org/422b/b819d88b579ec56b52e385c031ec4893afdb.pdf)
 
 **データ整形後**
 
@@ -107,8 +128,9 @@ Webページには単語数1433とあるが445列目が全て0で埋まってい
 |:---|:---|:---|
 |**[MovieLens100k](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/movie/sparse_movielens874_598.txt)**|874|598|
 |**[MovieLens1M](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/movie/sparse_movielens1m905_684.txt)**|905|684|
-|**[MovieLens10M](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/movie/sparse_movielens10m1299_1695.txt)**|905|684|
-
-
-
-
+|**[MovieLens10M](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/movie/sparse_movielens10m1299_1695.txt)**|1299|1695|
+|**[Book-Crossing](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/book/sparse_book1091_2248.txt)**|1091|2248|
+|**[Jester](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/jester/sparse_jester2916_140.txt)**|2916|140|
+|**[Libimseti](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/libimseti/sparse_libimseti866_1156.txt)**|866|1156|
+|**[Epinions](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/epinions/sparse_epinions1022_835.txt)**|1022|835|
+|**[Sushi](https://github.com/ntyaan/some-datasets/blob/master/2018_recom_datasets/sushi/sparse_sushi5000_100.txt)**|5000|100|
