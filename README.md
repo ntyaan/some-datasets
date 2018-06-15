@@ -102,8 +102,7 @@ Webページには単語数1433とあるが445列目が全て0で埋まってい
 - [MovieLens10M](http://files.grouplens.org/datasets/movielens/ml-10m-README.html)
 - [Book-Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/)
 - [Jester](http://www.ieor.berkeley.edu/~goldberg/jester-data/)
-
-###その他
+### その他
 - [Libimseti](http://www.occamslab.com/petricek/data/)
 - [Epinions](http://www.trustlet.org/epinions.html)
 - [Sushi](http://www.kamishima.net/sushi/)
