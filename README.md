@@ -111,13 +111,13 @@ Webページには単語数1433とあるが445列目が全て0で埋まってい
 
 |データ名|ユーザ数|アイテム数|
 |:---|:---|:---|
-|**[MovieLens100k](http://files.grouplens.org/datasets/movielens/ml-100k.zip)**|943|1,682|
-|**[MovieLens1M](http://files.grouplens.org/datasets/movielens/ml-1m.zip)**|6,040|3,900|
-|**[MovieLens10M](http://files.grouplens.org/datasets/movielens/ml-10m.zip)**|71,567|10,681|
-|**[Book-Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/BX-CSV-Dump.zip)**|278,858|271,379|
-|**[Jester](http://eigentaste.berkeley.edu/dataset/jester_dataset_2.zip)**|59,132|140|
-|**[Libimseti](http://www.occamslab.com/petricek/data/ratings.dat)**|135,359|168,791|
-|**[Epinions](http://www.trustlet.org/datasets/downloaded_epinions/ratings_data.txt.bz2)**|49,290|139,738|
+|**[MovieLens100k](http://files.grouplens.org/datasets/movielens/ml-100k.zip)**|943|1682|
+|**[MovieLens1M](http://files.grouplens.org/datasets/movielens/ml-1m.zip)**|6040|3900|
+|**[MovieLens10M](http://files.grouplens.org/datasets/movielens/ml-10m.zip)**|71567|10681|
+|**[Book-Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/BX-CSV-Dump.zip)**|278858|271379|
+|**[Jester](http://eigentaste.berkeley.edu/dataset/jester_dataset_2.zip)**|59132|140|
+|**[Libimseti](http://www.occamslab.com/petricek/data/ratings.dat)**|135359|168791|
+|**[Epinions](http://www.trustlet.org/datasets/downloaded_epinions/ratings_data.txt.bz2)**|49290|139738|
 |**[Sushi](http://www.kamishima.net/asset/sushi3-2016.zip)**|5000|100|
 
 データ整形参考論文:[https://pdfs.semanticscholar.org/422b/b819d88b579ec56b52e385c031ec4893afdb.pdf](https://pdfs.semanticscholar.org/422b/b819d88b579ec56b52e385c031ec4893afdb.pdf)
