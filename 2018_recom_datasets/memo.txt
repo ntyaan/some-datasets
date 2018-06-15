@@ -1,0 +1,72 @@
+http://eigen.tuxfamily.org/index.php?title=Main_Page
+tar xf eigen-eigen-なんたら.tar.bz2
+cd eigen-eigen-なんたら/
+sudo cp -r Eigen/ /usr/local/include/
+
+各データのディレクトリで端末を開き./make.sh
+
+groupelens:
+https://grouplens.org/datasets
+
+movielens100k:
+943 users 1682 movies 100,000 ratings(1-5)
+http://files.grouplens.org/datasets/movielens/ml-100k-README.txt
+整形後:874 users 598 movies 82,275 ratings [moivelens874_598.txt]
+データ整形参考:
+https://pdfs.semanticscholar.org/422b/b819d88b579ec56b52e385c031ec4893afdb.pdf
+
+movielens1m:
+6,040 users 3,900 movies 1,000,209 ratings
+(欠番を詰めると 6,040 users 3706 movies)
+整形後:905 users 684 movies 277,546 ratings [moivelens1m905_684.txt]
+http://files.grouplens.org/datasets/movielens/ml-1m-README.txt
+
+movielens10m:
+71,567 users 10681 movies 10,000,054 ratings
+(欠番を詰めると 69,878 users 10,677 movies)
+整形後:1299 users 1695 movies 1,022,610 ratings [moivelens10m1299_1695.txt]
+http://files.grouplens.org/datasets/movielens/ml-10m-README.html
+
+
+book-crossing:
+278,858 users 271,379 books 1,149,780 ratings
+(評価値0を除き，欠番詰めると 77,805 users, 185962 books, 433,671 ratings)
+(2016年に作成したものでは1090×2247となっている．これはデータ整形時にミスったため,
+たぶんデータ量を減らす際に起きたと思われる,bookcrossing.cxxでいう76行目から104行目のような処理,2016年作成プログラムは処理時間がやばいので再現していない)
+整形後:1090 users 2248 books 35,179 ratings [bookcrossing1091_2248.txt]
+http://www2.informatik.uni-freiburg.de/~cziegler/BX/
+
+
+jester:
+Over 1.7 million continuous ratings (-10.00 to +10.00) of 150 jokes from 59,132 users
+(欠番を詰めると 59,132 users 140 jesters)
+(マイナスになる評価値を正にするため全体に+11する)
+整形後:2916 users 140 jokes 373,338 ratings [jester2916_140.txt]
+http://www.ieor.berkeley.edu/~goldberg/jester-data/
+http://eigentaste.berkeley.edu/dataset/jester_dataset_2.zip
+
+
+libimseti:
+135,359 users 168,791 profiles 17,359,346 ratings
+(2016年に作成したものでは処理時間かかることやメモリ限界だと考え'1100 人以上のユーザプロファイルを評価しているユーザをランダムに500人選ぶことで500ユーザ, 2041アイテム,そのうち既評価数154,879 のデータに整形した'とした。
+今回作成したものでは他のデータセットと同様の処理ができるので今後このデータセットで実験を行う場合はこちらを使用するべき)
+整形後:866 users 1156 profiles 400,955 ratings [libimseti866_1156.txt]
+http://www.occamslab.com/petricek/data/
+
+
+epinions:
+49,290 users who rated a total of 139,738 different items at least once, 664,824 reviews
+(欠番を詰めると 40163 users 139738 reviews)
+整形後:1022 users 835 profiles 42,808 ratings [epinions1022_835.txt]
+http://www.trustlet.org/epinions.html
+http://www.trustlet.org/datasets/downloaded_epinions/ratings_data.txt.bz2
+
+
+sushi:
+5,000 users 100 items 
+元データでは-1が未評価,0が最低評価の5段階評価となっているので全体に+1をする,一人あたり評価数10で固定
+http://www.kamishima.net/sushi/
+http://www.kamishima.net/asset/sushi3-2016.zip
+
+sparseファイルにする際:
+g++ -std=c++17 sparse.cxx ; ./a.out データディレクトリ/データファイル(.txt) 行数 列数
