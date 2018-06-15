@@ -94,3 +94,14 @@ Webページには単語数1433とあるが445列目が全て0で埋まってい
 ![inverse_document_frequency_smooth.png](https://github.com/ntyaan/some-datasets/blob/master/tfidf/inverse_document_frequency_smooth.png)
 
 
+
+##推薦用データセット
+
+###MovieLens
+-[MovieLens100k](http://files.grouplens.org/datasets/movielens/ml-100k-README.txt)
+-[MovieLens1M](http://files.grouplens.org/datasets/movielens/ml-1m-README.txt)
+-[MovieLens10M](http://files.grouplens.org/datasets/movielens/ml-10m-README.html)
+
+
+
+
