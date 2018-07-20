@@ -8,9 +8,9 @@ constexpr int ROW = 40163;
 constexpr int COL = 139738;
 constexpr int SIZE = 664824;
 
-//Eu+1個以上評価しているユーザに絞る
+//Eu個以上評価しているユーザに絞る
 constexpr int Eu = 24;
-//Ei+1人以上に評価されているアイテムに絞る
+//Ei人以上に評価されているアイテムに絞る
 constexpr int Ei = 24;
 
 const std::string data_file1 = "data/ratings_rowmajor.txt";
