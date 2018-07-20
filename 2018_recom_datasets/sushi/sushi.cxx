@@ -6,9 +6,9 @@ using Eigen::VectorXd;
 
 constexpr int ROW = 5000;
 constexpr int COL = 100;
-//Eu+1個以上評価しているユーザに絞る
+//Eu個以上評価しているユーザに絞る
 constexpr int Eu = 0;
-//Ei+1人以上に評価されているアイテムに絞る
+//Ei人以上に評価されているアイテムに絞る
 constexpr int Ei = 0;
 
 const std::string data_file = "data/sushi3b.5000.10.score";
