@@ -35,7 +35,7 @@ int main(const int argc, const char *argv[]){
       denominator+=f;
     }
     for(int ell=0;ell<COL;ell++)
-      TF[i][ell]=Freq[i][cn]/denominator;
+      TF[i][ell]=Freq[i][ell]/denominator;
   }
   for(int k=0;k<COL;k++){
     double df=0.0;
